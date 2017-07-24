@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget
+  id="com.sensestudios.zoomintv.wildhitz"
+  android-versionCode="94"
+  version="1.3.0"
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Catopia</name>
+    <description>
+        CATOPIA “100% cats all the time” is the new cat channel broadcasting live from Amsterdam.
+        CATOPIA connects cat lovers all over the world and
+        is much more than just cat videos: You have a new friend with CATOPIA!
+    </description>
+    <author email="techniek@zoomin.tv" href="http://zoomin.tv">
+        Zoomin.tv
+    </author>
+    <content src="index.html" />
+
+    <!-- plugins -->
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <!-- external plugins -->
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
+    <plugin name="cordova-plugin-statusbar" source="npm" />
+    <plugin name="pushwoosh-cordova-plugin" source="npm" />
+
+    <!-- preferences -->
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="DisallowOverscroll" value="true" />
+
+    <!-- inline playback -->
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+
+    <!-- splash -->
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3" />
+
+    <!-- build tool (pushwoos) -->
+    <!-- <preference name="android-build-tool" value="gradle" /> -->
+
+    <!-- splashes and icons -->
+    <icon src="www/icon.png" />
+    <splash src="www/splash.png" width="640" height="1136" />
+
+    <platform name="android">
+        <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
+        <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
+        <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
+        <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
+        <!--
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+        -->
+
+        <splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+        <splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+        <splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+        <splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+        <!--
+        <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
+        -->
+
+        <splash gap:platform="android" gap:qualifier="land-ldpi" src="www/res/screen/android/screen-ldpi-landscape.png" />
+        <splash gap:platform="android" gap:qualifier="land-mdpi" src="www/res/screen/android/screen-mdpi-landscape.png" />
+        <splash gap:platform="android" gap:qualifier="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
+        <splash gap:platform="android" gap:qualifier="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
+        <!--
+        <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+        -->
+
+    </platform>
+
+    <platform name="ios">
+
+        <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
+
+        <icon gap:platform="ios" height="87" src="www/res/icon/ios/icon-small@3x.png" width="87" />
+        <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
+        <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+        <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+        <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+
+        <!-- iPhone and iPod touch -->
+        <splash src="www/res/screen/ios/Default~iphone.png" platform="ios" width="320" height="480" />
+        <splash src="www/res/screen/ios/Default@2x~iphone.png" platform="ios" width="640" height="960" />
+
+        <!-- iPhone 5 / iPod Touch (5th Generation) -->
+        <splash src="www/res/screen/ios/Default-568h@2x~iphone.png" platform="ios" width="640" height="1136" />
+
+        <!-- iPhone 6 -->
+        <splash src="www/res/screen/ios/Default-667h.png" platform="ios" width="750" height="1334" />
+        <splash src="www/res/screen/ios/Default-736h.png" platform="ios" width="1242" height="2208" />
+        <splash src="www/res/screen/ios/Default-Landscape-736h.png" platform="ios" width="2208" height="1242" />
+
+        <!-- iPad -->
+        <splash src="www/res/screen/ios/Default-Portrait~ipad.png" platform="ios" width="768" height="1024" />
+        <splash src="www/res/screen/ios/Default-Landscape~ipad.png" platform="ios" width="1024" height="768" />
+
+        <!-- Retina iPad -->
+        <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png" platform="ios" width="1536" height="2048" />
+        <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png" platform="ios" width="2048" height="1536" />
+
+    </platform>
+
+    <!-- gap config -->
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+      <true/>
+    </gap:config-file>
+
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+      <false/>
+    </gap:config-file>
+
+    <allow-navigation href="http://catopia.tv/*" />
+    <allow-navigation href="*://*.catopia.tv/*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <allow-navigation href="*" /> <!-- not recommended! -->
+
+    <access origin="*.pushwoosh.com" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+    <!-- <engine name="android" spec="~4.1.1" /> -->
+</widget>
