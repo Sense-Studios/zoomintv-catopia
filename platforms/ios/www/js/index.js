@@ -50,7 +50,6 @@ function initPushwoosh() {
   );
 }
 
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -79,9 +78,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        //var url = "http://wildhitz.nl"
-        //var url = "http://wildhitz.nl/wildhitzplayer/#/267e0609b3e6832fe9378ac5642bb209"
-        var url = "http://wildhitz.nl/ios.html"
+        var url = "http://catopia.tv"
         console.log("load: ", url)
         $.ajax({
             url: url,
@@ -105,12 +102,6 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
-        //var listeningElement = parentElement.querySelector('.listening');
-        //var receivedElement = parentElement.querySelector('.received');
-
-        //listeningElement.setAttribute('style', 'display:none;');
-        //receivedElement.setAttribute('style', 'display:block;');
-
         console.log('Received Event: ' + id);
     }
 };

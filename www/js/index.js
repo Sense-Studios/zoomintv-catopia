@@ -78,7 +78,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var url = "http://catopia.tv/ios.html"
+        var url = "http://catopia.tv"
         console.log("load: ", url)
         $.ajax({
             url: url,

@@ -45,10 +45,11 @@
     <splash gap:platform="android" gap:qualifier="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
     <splash gap:platform="android" gap:qualifier="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
     <allow-intent href="market:*" />
-    <name>WILDHITZ</name>
+    <name>Catopia</name>
     <description>
-        The New Music Network.
-        WildHitz is een online muziekplatform dat dé ideale playlist maakt.
+        CATOPIA “100% cats all the time” is the new cat channel broadcasting live from Amsterdam.
+        CATOPIA connects cat lovers all over the world and
+        is much more than just cat videos: You have a new friend with CATOPIA!
     </description>
     <author email="techniek@zoomin.tv" href="http://zoomin.tv">
         Zoomin.tv
@@ -82,8 +83,8 @@
     <gap:config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
         <false />
     </gap:config-file>
-    <allow-navigation href="http://wildhitz.nl/*" />
-    <allow-navigation href="*://*.wildhitz.nl/*" />
+    <allow-navigation href="http://catopia.tv/*" />
+    <allow-navigation href="*://*.catopia.tv/*" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
     <allow-navigation href="data:*" />
