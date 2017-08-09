@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget
-  id="com.sensestudios.zoomintv.wildhitz"
-  android-versionCode="94"
-  version="1.3.0"
+  id="com.sensestudios.zoomintv.catopia"
+  android-versionCode="10"
+  version="1.0.0"
   xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Catopia</name>

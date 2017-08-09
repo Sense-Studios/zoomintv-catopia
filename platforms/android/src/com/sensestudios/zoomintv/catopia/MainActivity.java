@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.sensestudios.zoomintv.wildhitz;
+package com.sensestudios.zoomintv.catopia;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
