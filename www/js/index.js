@@ -78,7 +78,9 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var url = "http://catopia.tv"
+        // var url = "http://catopia.tv/?source=app"
+        //var url = "http://catopia.tv/?source=app"
+        var url = "http://wildhitz.com?source=app"
         console.log("load: ", url)
         $.ajax({
             url: url,
