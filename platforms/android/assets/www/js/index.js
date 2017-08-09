@@ -79,8 +79,7 @@ var app = {
         app.receivedEvent('deviceready');
 
         // var url = "http://catopia.tv/?source=app"
-        //var url = "http://catopia.tv/?source=app"
-        var url = "http://wildhitz.com?source=app"
+        var url = "http://catopia.tv/?source=app"        
         console.log("load: ", url)
         $.ajax({
             url: url,
