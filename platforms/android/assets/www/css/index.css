@@ -67,6 +67,11 @@ body {
     background-image: url('../img/bgr.jpg');
     background-size: cover;
     background-position: 50% 50%;
+
+    /* we accedentily the whole screen */
+    height: 100vh;
+    width: 100vw;
+
 }
 
 .could_not_connect {
@@ -103,6 +108,8 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+
 
 /* Portrait layout (default) */
 .app {
