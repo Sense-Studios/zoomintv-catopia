@@ -31,8 +31,8 @@ function initPushwoosh() {
 
   // Initialize Pushwoosh. This will trigger all pending push notifications on start.
   pushwoosh.onDeviceReady({
-    appid: "EFE85-B7D2B",
-    projectid: "909405246969",    // android only, note thisis project number, not id!
+    appid: "70FFE-4D2D9",            // catopia-176320
+    projectid: "326861770858",       // android only, note thisis project number, not id!
     serviceName: "MPNS_SERVICE_NAME" // windows only
   });
 
@@ -78,7 +78,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var url = "http://catopia.tv/?source=app"
+        var url = "http://catopia.tv"
         console.log("load: ", url)
         $.ajax({
             url: url,
